@@ -1,5 +1,6 @@
 function tom1(sound,item){
-    var audio = new Audio("resource/sounds/"+sound+".mp3");
+    var audio = new Audio("https://github.com/parishi07/drumkit/blob/main/Resource/sounds/"+sound+".mp3");
+
     audio.play();
     toggle_html(item);
 };
