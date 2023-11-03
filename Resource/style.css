@@ -1,0 +1,94 @@
+.item2,.item4,.item6{
+    background-color:#ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.item3,.item5,.item7{
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.item2{
+    background-image: url("images/tom1.png");
+}
+.item3{
+    background-image: url("images/tom2.png");
+}
+.item4{
+    background-image: url("images/tom3.png");
+}
+.item5{
+    background-image: url("images/tom4.png");
+}
+.item6{
+    background-image: url("images/snare.png");
+}
+.item7{
+    background-image: url("images/kick.png");
+}
+
+.container > div{
+    background-color:#190482;
+
+    border-radius: 1rem;
+    height: 20vw;
+}
+
+.container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 0.5rem;
+}
+.item1 {
+    background-color: #190482 !important;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-column: 1/7;
+}
+
+
+.copyright{
+    font-family: "Sofia", sans-serif;
+    font-size:3vw;
+    color: #190482;
+    background-color: white !important;
+    grid-column: 1/7;
+}
+
+h1{
+    font-family: "Sofia", sans-serif;
+    font-size:8vw;
+    color: #c2D9ff;
+}
+button{
+    border: none;
+    border-radius: 1rem;
+    margin: 5%;
+    width: 90%;
+    height: 90%;
+    cursor:url("images/cursor.png");
+    font-family: "Sofia", sans-serif;
+    font-size: 4vw;
+    color: #C2D9FF;
+}
+
+button:hover{
+    border: none;
+    background-color: #C2D9FF;
+    color: #190482;
+    background-image: none;
+    background-size:contain;
+}
+
+.hover{
+    border: none;
+    background-color: #C2D9FF;
+    color: #190482;
+    background-image: none;
+    background-size:contain;
+}
